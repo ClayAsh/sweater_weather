@@ -208,12 +208,6 @@
           null
         ]
       },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/controllers/application_controller.rb": {
-        "lines": [
-          1,
-          null
-        ]
-      },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/serializers/forecast_serializer.rb": {
         "lines": [
           1,
@@ -236,6 +230,6 @@
         }
       }
     },
-    "timestamp": 1659832239
+    "timestamp": 1659832408
   }
 }

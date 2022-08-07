@@ -226,16 +226,6 @@
           null
         ]
       },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/mailers/application_mailer.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/models/application_record.rb": {
         "lines": [
           0,
@@ -244,36 +234,8 @@
         ],
         "branches": {
         }
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/jobs/application_job.rb": {
-        "lines": [
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/channels/application_cable/connection.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/channels/application_cable/channel.rb": {
-        "lines": [
-          0,
-          0,
-          0,
-          0
-        ],
-        "branches": {
-        }
       }
     },
-    "timestamp": 1659831594
+    "timestamp": 1659831732
   }
 }

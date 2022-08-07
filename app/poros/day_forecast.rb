@@ -29,5 +29,4 @@ class DayForecast
   def icon_path(icon)
     "http://openweathermap.org/img/wn/#{icon}@2x.png"
   end
-
 end

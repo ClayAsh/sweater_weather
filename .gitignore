@@ -27,4 +27,3 @@
 
 #simplecov
 /coverage
-echo coverage >> .gitignorecoverage

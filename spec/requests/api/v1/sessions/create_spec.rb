@@ -28,7 +28,7 @@ RSpec.describe "Sessions API endpoint" do
   end
 
   it 'can return error message id password is incorrect' do 
-    user = User.create({email: "email@email.com", password: "password", password_confirmation: "password"})
+    User.create({email: "email@email.com", password: "password", password_confirmation: "password"})
     params = { 
                 'email': 'email@email.com',
                 'password': 'pass'

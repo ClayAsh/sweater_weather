@@ -7,7 +7,9 @@ class FoodFacade
     end
   end
 
-  # def self.get_food_weather(food, forecast)
-
-  # end
+  def self.get_food_weather(food, forecast)
+    food.map do |f|
+      FoodWeather.new(f, forecast)
+    end
+  end
 end

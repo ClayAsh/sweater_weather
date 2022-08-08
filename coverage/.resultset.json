@@ -1,61 +1,19 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/facades/food_facade.rb": {
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/serializers/food_weather_serializer.rb": {
         "lines": [
-          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           null,
-          1,
-          1,
-          1,
-          20,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/services/food_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/services/base_service.rb": {
-        "lines": [
-          1,
-          null,
-          1,
-          1,
-          null,
-          null
-        ]
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/poros/food.rb": {
-        "lines": [
-          1,
-          1,
-          null,
-          null,
-          1,
-          20,
-          20,
-          null,
-          null
-        ]
+          0
+        ],
+        "branches": {
+        }
       },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/serializers/forecast_serializer.rb": {
         "lines": [
@@ -85,6 +43,27 @@
       },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/facades/forecast_facade.rb": {
         "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/facades/food_facade.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
           0,
           0,
           0,
@@ -126,6 +105,21 @@
           0,
           0,
           null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/poros/food.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
           0,
           0,
           0,
@@ -199,6 +193,24 @@
         "branches": {
         }
       },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/poros/food_weather.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "branches": {
+        }
+      },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/poros/forecast.rb": {
         "lines": [
           0,
@@ -259,6 +271,25 @@
           0,
           0,
           0,
+          null,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/services/food_service.rb": {
+        "lines": [
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -274,6 +305,18 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/services/base_service.rb": {
+        "lines": [
+          0,
+          null,
           0,
           0,
           0,
@@ -302,6 +345,6 @@
         }
       }
     },
-    "timestamp": 1659976759
+    "timestamp": 1659977970
   }
 }

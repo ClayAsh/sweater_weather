@@ -30,11 +30,11 @@
           1,
           null,
           1,
-          3,
+          5,
           null,
           null,
           1,
-          3,
+          5,
           null,
           null
         ]
@@ -238,6 +238,37 @@
           null
         ]
       },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/controllers/api/v1/sessions_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          2,
+          2,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/serializers/user_serializer.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/controllers/api/v1/users_controller.rb": {
         "lines": [
           1,
@@ -259,17 +290,8 @@
           null,
           null
         ]
-      },
-      "/Users/clayash/turing/3module/projects/sweater_weather/app/serializers/user_serializer.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null,
-          null
-        ]
       }
     },
-    "timestamp": 1659994600
+    "timestamp": 1660000057
   }
 }

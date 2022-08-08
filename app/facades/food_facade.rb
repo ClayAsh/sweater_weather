@@ -1,8 +1,8 @@
 class FoodFacade 
 
   def self.get_restaurant(location, food)
-    FoodService.get_food_info(location, food)[:businesses].map do |f|
-      require 'pry'; binding.pry
+    restaurant = FoodService.get_food_info(location, food)
+    restaurant[:businesses].map do |f|
       Food.new(f)
     end
   end

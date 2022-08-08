@@ -9,7 +9,7 @@ RSpec.describe "Food Weather Serializer" do
     expect(response).to be_successful 
 
     result = JSON.parse(response.body, symbolize_names: true)
-
+require 'pry'; binding.pry
     expect(result).to be_a(Hash)
   end
 end

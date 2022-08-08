@@ -18,6 +18,8 @@ RSpec.describe "Food Weather Serializer" do
     expect(result[:data][:type]).to eq("munchie")
     expect(result[:data]).to have_key(:attributes)
     expect(result[:data][:attributes]).to have_key(:destination_city)
+    expect(result[:data][:attributes][:destination_city]).to eq("Pueblo, CO")
+
     expect(result[:data][:attributes]).to have_key(:forecast)
     expect(result[:data][:attributes]).to have_key(:restaurant)
 
@@ -26,7 +28,5 @@ RSpec.describe "Food Weather Serializer" do
 
     expect(result[:data][:attributes][:restaurant]).to have_key(:name)
     expect(result[:data][:attributes][:restaurant]).to have_key(:address)
-
-
   end
 end

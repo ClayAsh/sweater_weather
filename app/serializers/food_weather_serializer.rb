@@ -6,7 +6,7 @@ class FoodWeatherSerializer
         "id": "null",
         "type": "munchie",
         "attributes": {
-          "destination_city": food.city,
+          "destination_city": "#{food.city}, #{food.state}",
           "forecast": {
             "summary": forecast.summary,
             "temperature": forecast.temperature

@@ -9,6 +9,6 @@ RSpec.describe FoodFacade do
 
     expect(restaurant.first).to be_a(Food)
     expect(restaurant.first.name).to eq("Wonderful Bistro")
-    expect(restaurant.first.address).to eq(["4602 N Elizabeth St", "Ste 120", "Pueblo, CO 81008"])
+    expect(restaurant.first.address).to eq("4602 N Elizabeth St, Ste 120, Pueblo, CO 81008")
   end
 end

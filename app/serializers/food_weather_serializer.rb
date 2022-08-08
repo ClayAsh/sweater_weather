@@ -1,10 +1,22 @@
 class FoodWeatherSerializer
-  include JSONAPI::Serializer
-  attributes :id,
-             :type,
-             :summary,
-             :temperature,
-             :name,
-             :address
 
+  def self.food_weather(forecast, food)
+      {
+      "data": {
+        "id": "null",
+        "type": "munchie",
+        "attributes": {
+          "destination_city": food.city,
+          "forecast": {
+            "summary": forecast.summary,
+            "temperature": forecast.temperature
+          },
+          "restaurant": {
+            "name": food.name,
+            "address": food.address
+          }
+        }
+      }
+    }
+  end 
 end

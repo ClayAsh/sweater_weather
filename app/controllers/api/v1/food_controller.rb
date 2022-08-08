@@ -5,6 +5,6 @@ class Api::V1::FoodController < ApplicationController
     forecast = ForecastFacade.forecast_summary(loc[:lat], loc[:lng])
     food = FoodFacade.get_restaurant(params[:location], params[:food]).first
     # require 'pry'; binding.pry
-    render json: FoodWeatherSerializer.new(forecast, food), status: :created
+    render json: FoodWeatherSerializer.food_weather(forecast, food)
   end
 end

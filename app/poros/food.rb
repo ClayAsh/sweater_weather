@@ -14,10 +14,6 @@ class Food
     @city = attributes[:location][:city]
     @zicode = attributes[:location][:zip_code]
     @state = attributes[:location][:state]
-    @address = attributes[:location][:display_address]
+    @address = attributes[:location][:display_address].join(", ")
   end
-
-  # def full_address 
-  #   @address_1 + " " + @address_2 + " " + @city + " " + @state + " " + @zipcode
-  # end
 end

@@ -1,6 +1,23 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/facades/food_facade.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/clayash/turing/3module/projects/sweater_weather/app/services/food_service.rb": {
         "lines": [
           1,
@@ -9,8 +26,6 @@
           1,
           1,
           1,
-          1,
-          null,
           1,
           null,
           1,
@@ -23,6 +38,20 @@
         "lines": [
           1,
           null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/clayash/turing/3module/projects/sweater_weather/app/poros/food.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          1,
+          2,
           1,
           1,
           null,
@@ -227,7 +256,10 @@
           0,
           null,
           0,
-          null,
+          0,
+          0,
+          0,
+          0,
           0,
           0
         ],
@@ -271,6 +303,6 @@
         }
       }
     },
-    "timestamp": 1659973999
+    "timestamp": 1659975661
   }
 }

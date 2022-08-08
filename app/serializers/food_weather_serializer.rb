@@ -2,7 +2,9 @@ class FoodWeatherSerializer
   include JSONAPI::Serializer
   attributes :id,
              :type,
-             :attributes,
-             :restaurant
+             :summary,
+             :temperature,
+             :name,
+             :address
 
 end

@@ -5,7 +5,8 @@ class DayForecast
               :max_temp,
               :min_temp,
               :conditions,
-              :icon
+              :icon,
+              :average_temp
 
   def initialize(attributes)
     @date       = to_date(attributes[:dt])
@@ -15,6 +16,11 @@ class DayForecast
     @min_temp   = attributes[:temp][:min]
     @conditions = attributes[:weather].first[:description]
     @icon       = icon_path(attributes[:weather].first[:icon])
+    @average_temp = average_temp_cal.round(2)
+  end
+
+  def average_temp_cal
+    (@max_temp + @min_temp) / 2
   end
 
   def to_date(seconds)

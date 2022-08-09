@@ -7,4 +7,12 @@ RSpec.describe LocationService do
 
     expect(response).to be_a(Hash)
   end
+
+  it 'establishes connection to get directions', :vcr do 
+    from = "Denver, CO"
+    to = "Pueblo, CO"
+    response = LocationService.get_directions(from, to)
+
+    expect(response).to be_a(Hash)
+  end
 end

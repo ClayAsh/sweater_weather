@@ -7,4 +7,13 @@ RSpec.describe LocationFacade do
     expect(loc_results).to have_key(:lat)
     expect(loc_results).to have_key(:lng)
   end
+
+  it 'creates poro for trip', :vcr do 
+    from = "Denver, CO"
+    to = "Pueblo, CO"
+    
+    weather_data = ForecastFacade.get_forecast(39.736406, -104.89527)
+    dir_results = LocationFacade.direction_data(from, to, weather_data)
+    expect(dir_results).to be_a(Trip)
+  end
 end

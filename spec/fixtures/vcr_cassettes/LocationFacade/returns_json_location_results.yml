@@ -19,11 +19,11 @@ http_interactions:
       message: ''
     headers:
       Date:
-      - Sat, 06 Aug 2022 23:09:31 GMT
+      - Tue, 09 Aug 2022 16:37:07 GMT
       Content-Type:
       - application/json;charset=UTF-8
       Content-Length:
-      - '1088'
+      - '1087'
       Access-Control-Allow-Methods:
       - OPTIONS,GET,POST
       Access-Control-Allow-Origin:
@@ -35,13 +35,13 @@ http_interactions:
       Geocodetransactioncount:
       - '1'
       Last-Modified:
-      - Sat, 06 Aug 2022 23:09:31 GMT
+      - Tue, 09 Aug 2022 16:37:07 GMT
       Pragma:
       - no-cache
       Reversegeocodetransactioncount:
       - '0'
       Set-Cookie:
-      - JSESSIONID=B03EA02A40D36FA6C3ED8E5FCE719AEF; Path=/; HttpOnly
+      - JSESSIONID=C0E0A357A8A2C7C6A686F8A8B5B42F29; Path=/; HttpOnly
       Status:
       - success
       Transactionweight:
@@ -51,6 +51,6 @@ http_interactions:
       string: '{"info":{"statuscode":0,"copyright":{"text":"\u00A9 2022 MapQuest,
         Inc.","imageUrl":"http://api.mqcdn.com/res/mqlogo.gif","imageAltText":"\u00A9
         2022 MapQuest, Inc."},"messages":[]},"options":{"maxResults":-1,"thumbMaps":true,"ignoreLatLngInput":false},"results":[{"providedLocation":{"location":"1237
-        Tamarac st Denver CO"},"locations":[{"street":"1237 Tamarac St","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"80220-3322","geocodeQualityCode":"P1AAA","geocodeQuality":"POINT","dragPoint":false,"sideOfStreet":"L","linkId":"r51492852|p193982657|n253371681","unknownInput":"","type":"s","latLng":{"lat":39.736406,"lng":-104.89527},"displayLatLng":{"lat":39.736411,"lng":-104.895601},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=COAPp7ipNp6Rc7hznFrCSaYscSUfOkgi&type=map&size=225,160&locations=39.736406,-104.89527|marker-sm-50318A-1&scalebar=true&zoom=15&rand=-1051932746"}]}]}'
-  recorded_at: Sat, 06 Aug 2022 23:09:31 GMT
+        Tamarac st Denver CO"},"locations":[{"street":"1237 Tamarac St","adminArea6":"","adminArea6Type":"Neighborhood","adminArea5":"Denver","adminArea5Type":"City","adminArea4":"Denver","adminArea4Type":"County","adminArea3":"CO","adminArea3Type":"State","adminArea1":"US","adminArea1Type":"Country","postalCode":"80220-3322","geocodeQualityCode":"P1AAA","geocodeQuality":"POINT","dragPoint":false,"sideOfStreet":"L","linkId":"r51492852|p193982657|n253371681","unknownInput":"","type":"s","latLng":{"lat":39.736406,"lng":-104.89527},"displayLatLng":{"lat":39.736411,"lng":-104.895601},"mapUrl":"http://www.mapquestapi.com/staticmap/v5/map?key=COAPp7ipNp6Rc7hznFrCSaYscSUfOkgi&type=map&size=225,160&locations=39.736406,-104.89527|marker-sm-50318A-1&scalebar=true&zoom=15&rand=1560334700"}]}]}'
+  recorded_at: Tue, 09 Aug 2022 16:37:07 GMT
 recorded_with: VCR 6.1.0

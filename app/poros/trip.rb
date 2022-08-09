@@ -14,14 +14,22 @@ class Trip
     @weather_data = weather_data
     @trip_weather = weather_at_eta
     @trip_conditions = @trip_weather.conditions 
-    @trip_temperature = @trip_weather.temperature 
+    @trip_temperature = which_temp 
   end
 
   def weather_at_eta
     if @travel_hours <= 24
       @weather_data.long_hour_weather[@travel_hours - 1]
     else
-      @weather_data.long_day_weather[@travel_hours - 1]
+      @weather_data.long_day_weather[(@travel_hours/ 24) - 1]
+    end
+  end
+
+  def which_temp 
+    if @travel_hours <= 24
+      @trip_weather.temperature 
+    else 
+      @trip_weather.average_temp
     end
   end
 end
